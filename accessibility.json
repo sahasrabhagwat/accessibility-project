@@ -1,0 +1,223 @@
+{
+  "locations": [
+    {
+      "id": "loc-001",
+      "name": "Twin Hickory Library",
+      "type": "library",
+      "address": "5001 Twin Hickory Rd, Glen Allen, VA 23059",
+      "hours": [
+        {"day": "Mon", "open": "09:00", "close": "21:00"},
+        {"day": "Tue", "open": "09:00", "close": "21:00"},
+        {"day": "Wed", "open": "09:00", "close": "21:00"},
+        {"day": "Thu", "open": "09:00", "close": "21:00"},
+        {"day": "Fri", "open": "09:00", "close": "18:00"},
+        {"day": "Sat", "open": "09:00", "close": "18:00"},
+        {"day": "Sun", "open": null, "close": null}
+      ],
+
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true,
+          "ramp_or_level_entry": true,
+          "elevator": true,
+          "accessible_parking": true,
+          "accessible_restrooms": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    },
+
+    {
+      "id": "loc-002",
+      "name": "Twin Hickory Park & Recreation Center",
+      "type": "park",
+      "address": "5011 Twin Hickory Rd, Glen Allen, VA 23059",
+      "hours": {
+        "daily": "dawn-dusk"
+      },
+      "accessibility": {
+        "mobility": {
+          "wheelchair_paths": true,
+          "accessible_parking": true,
+          "accessible_restrooms": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    },
+
+    {
+      "id": "loc-003",
+      "name": "Deep Run Park",
+      "type": "park",
+      "address": "9900 Ridgefield Pkwy, Richmond, VA 23233",
+      "hours": {
+        "daily": "dawn-dusk"
+      },
+      "accessibility": {
+        "mobility": {
+          "wheelchair_paths": true,
+          "accessible_parking": true,
+          "accessible_restrooms": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    },
+
+    {
+      "id": "loc-004",
+      "name": "Twin Hickory Tavern",
+      "type": "restaurant",
+      "address": "11351 Nuckols Rd, Glen Allen, VA 23059",
+      "hours": [
+        {"day": "Mon", "open": "11:30", "close": "22:00"},
+        {"day": "Tue", "open": "11:30", "close": "22:00"},
+        {"day": "Wed", "open": "11:30", "close": "22:00"},
+        {"day": "Thu", "open": "11:30", "close": "22:00"},
+        {"day": "Fri", "open": "11:30", "close": "23:00"},
+        {"day": "Sat", "open": "10:30", "close": "23:00"},
+        {"day": "Sun", "open": "10:30", "close": "22:00"}
+      ],
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true,
+          "accessible_parking": true,
+          "accessible_restrooms": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    },
+
+    {
+      "id": "loc-005",
+      "name": "Regal Short Pump & IMAX",
+      "type": "movie_theater",
+      "address": "11650 W Broad St, Richmond, VA 23233",
+      "hours": "varies by showtime",
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true,
+          "wheelchair_seating": true,
+          "accessible_restrooms": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    },
+
+    {
+      "id": "loc-006",
+      "name": "Short Pump Town Center",
+      "type": "mall",
+      "address": "11800 W Broad St, Richmond, VA 23233",
+      "hours": [
+        {"day": "Mon", "open": "11:00", "close": "20:00"},
+        {"day": "Tue", "open": "11:00", "close": "20:00"},
+        {"day": "Wed", "open": "11:00", "close": "20:00"},
+        {"day": "Thu", "open": "11:00", "close": "20:00"},
+        {"day": "Fri", "open": "10:00", "close": "20:00"},
+        {"day": "Sat", "open": "10:00", "close": "20:00"},
+        {"day": "Sun", "open": "11:00", "close": "18:00"}
+      ],
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true,
+          "accessible_parking": true,
+          "accessible_restrooms": true,
+          "elevator": true,
+          "wheelchair_paths": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    },
+
+    {
+      "id": "loc-007",
+      "name": "Barnes & Noble Short Pump",
+      "type": "bookstore",
+      "address": "11640 W Broad St, Richmond, VA 23233",
+      "hours": "varies",
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true,
+          "accessible_parking": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    },
+
+    {
+      "id": "loc-008",
+      "name": "Shady Grove Family YMCA",
+      "type": "fitness_center",
+      "address": "11255 Nuckols Rd, Glen Allen, VA 23059",
+      "hours": [
+        {"day": "Mon", "open": "05:00", "close": "21:00"},
+        {"day": "Tue", "open": "05:00", "close": "21:00"},
+        {"day": "Wed", "open": "05:00", "close": "21:00"},
+        {"day": "Thu", "open": "05:00", "close": "21:00"},
+        {"day": "Fri", "open": "05:00", "close": "20:00"},
+        {"day": "Sat", "open": "06:00", "close": "18:00"},
+        {"day": "Sun", "open": "08:00", "close": "18:00"}
+      ],
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true,
+          "accessible_parking": true,
+          "accessible_restrooms": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    },
+
+    {
+      "id": "loc-009",
+      "name": "Starbucks",
+      "type": "cafe",
+      "address": "11332 Nuckols Rd, Glen Allen, VA 23059",
+      "hours": [
+        {"day": "Mon", "open": "04:30", "close": "20:00"},
+        {"day": "Tue", "open": "04:30", "close": "20:00"},
+        {"day": "Wed", "open": "04:30", "close": "20:00"},
+        {"day": "Thu", "open": "04:30", "close": "20:00"},
+        {"day": "Fri", "open": "04:30", "close": "20:00"},
+        {"day": "Sat", "open": "05:00", "close": "20:00"},
+        {"day": "Sun", "open": "05:00", "close": "20:00"}
+      ],
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true,
+          "accessible_parking": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    },
+
+    {
+      "id": "loc-010",
+      "name": "Henrico Doctors' Hospital Short Pump",
+      "type": "hospital",
+      "address": "12401 W Broad St, Richmond, VA 23233",
+      "hours": {
+        "daily": "open 24 hours"
+      },
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true,
+          "accessible_parking": true,
+          "accessible_restrooms": true,
+          "elevator": true
+        },
+        "sensory": {},
+        "communication": {}
+      }
+    }
+  ]
+}
