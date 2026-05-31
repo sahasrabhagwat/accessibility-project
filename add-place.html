@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Place</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="map.html">Map</a>
+    <a href="add-place.html">Add Place</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="compare.html">Compare</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactme.html">Contact Us</a>
+</nav>
+
+<div class="container">
+
+    <h1>Add A New Place</h1>
+
+    <form id="addPlaceForm">
+
+        <input id="name" placeholder="Place Name" required>
+
+        <input id="type" placeholder="Category (e.g. park, cafe)" required>
+
+        <input id="address" placeholder="Address" required>
+
+        <input id="website" placeholder="Website URL">
+
+        <h3>Location (for map)</h3>
+
+        <input id="lat" placeholder="Latitude">
+        <input id="lng" placeholder="Longitude">
+
+        <h3>Accessibility</h3>
+
+        <label><input type="checkbox" id="wheelchairEntrance"> Wheelchair Accessible Entrance</label><br>
+        <label><input type="checkbox" id="accessibleParking"> Accessible Parking</label><br>
+        <label><input type="checkbox" id="accessibleRestroom"> Accessible Restrooms</label><br>
+        <label><input type="checkbox" id="elevatorAvailable"> Elevator</label><br>
+        <label><input type="checkbox" id="wheelchairPaths"> Wheelchair Paths</label><br>
+
+        <label><input type="checkbox" id="quietSpaces"> Quiet Spaces</label><br>
+        <label><input type="checkbox" id="staffAssistance"> Staff Assistance</label><br>
+        <label><input type="checkbox" id="writtenSignage"> Written Signage</label><br>
+        <label><input type="checkbox" id="digitalResources"> Digital Resources</label><br>
+
+        <h3>Noise Level</h3>
+        <select id="noiseLevel">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <h3>Lighting</h3>
+        <select id="lighting">
+            <option value="natural">Natural</option>
+            <option value="bright">Bright</option>
+            <option value="dim">Dim</option>
+        </select>
+
+        <h3>ASL / Braille</h3>
+
+        <select id="aslAvailable">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+            <option value="on_request">On Request</option>
+        </select>
+
+        <select id="brailleAvailable">
+            <option value="none">None</option>
+            <option value="partial">Partial</option>
+            <option value="full">Full</option>
+        </select>
+
+        <h3>Notes</h3>
+
+        <input id="notes" placeholder="comma-separated notes">
+
+        <br><br>
+
+        <button type="submit">Save Place</button>
+
+    </form>
+
+    <p id="saveStatus"></p>
+
+</div>
+
+<script src="add-place.js"></script>
+
+</body>
+</html>

@@ -5,6 +5,7 @@
       "name": "Twin Hickory Library",
       "type": "library",
       "address": "5001 Twin Hickory Rd, Glen Allen, VA 23059",
+      "website": "https://henricolibrary.org/twin-hickory",
       "hours": [
         {"day": "Mon", "open": "09:00", "close": "21:00"},
         {"day": "Tue", "open": "09:00", "close": "21:00"},
@@ -14,7 +15,8 @@
         {"day": "Sat", "open": "09:00", "close": "18:00"},
         {"day": "Sun", "open": null, "close": null}
       ],
-
+      "lat": 37.6760004,
+      "lng": -77.5950595,
       "accessibility": {
         "mobility": {
           "wheelchair_accessible_entrance": true,
@@ -23,8 +25,19 @@
           "accessible_parking": true,
           "accessible_restrooms": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "low",
+          "lighting": "bright",
+          "quiet_spaces": true,
+          "busy_times": "Afternoons and weekends"
+        },
+        "communication": {
+          "staff_assistance": true,
+          "written_signage": true,
+          "digital_resources": true,
+          "asl_available": "unknown",
+          "braille_available": "partial"
+        }
       }
     },
 
@@ -33,17 +46,29 @@
       "name": "Twin Hickory Park & Recreation Center",
       "type": "park",
       "address": "5011 Twin Hickory Rd, Glen Allen, VA 23059",
-      "hours": {
-        "daily": "dawn-dusk"
-      },
+      "website": "https://henrico.gov/rec/places/twin-hickory/",
+      "hours": {"daily": "dawn-dusk"},
+      "lat": 37.67680740356445,
+      "lng": -77.59333038330078,
       "accessibility": {
         "mobility": {
           "wheelchair_paths": true,
           "accessible_parking": true,
           "accessible_restrooms": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "medium",
+          "lighting": "natural",
+          "quiet_spaces": true,
+          "busy_times": "Weekends and evenings"
+        },
+        "communication": {
+          "staff_assistance": false,
+          "written_signage": true,
+          "digital_resources": false,
+          "asl_available": "no",
+          "braille_available": "none"
+        }
       }
     },
 
@@ -52,17 +77,31 @@
       "name": "Deep Run Park",
       "type": "park",
       "address": "9900 Ridgefield Pkwy, Richmond, VA 23233",
+      "website": "https://henrico.gov/rec/places/deep-run/",
       "hours": {
         "daily": "dawn-dusk"
       },
+      "lat": 37.624434,
+      "lng": -77.59334,
       "accessibility": {
         "mobility": {
           "wheelchair_paths": true,
           "accessible_parking": true,
           "accessible_restrooms": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "varies",
+          "lighting": "natural",
+          "quiet_spaces": true,
+          "busy_times": "Weekend afternoons"
+        },
+        "communication": {
+          "staff_assistance": false,
+          "written_signage": true,
+          "digital_resources": false,
+          "asl_available": "no",
+          "braille_available": "none"
+        }
       }
     },
 
@@ -71,6 +110,7 @@
       "name": "Twin Hickory Tavern",
       "type": "restaurant",
       "address": "11351 Nuckols Rd, Glen Allen, VA 23059",
+      "website": "https://www.twinhickorytavern.com/",
       "hours": [
         {"day": "Mon", "open": "11:30", "close": "22:00"},
         {"day": "Tue", "open": "11:30", "close": "22:00"},
@@ -80,31 +120,59 @@
         {"day": "Sat", "open": "10:30", "close": "23:00"},
         {"day": "Sun", "open": "10:30", "close": "22:00"}
       ],
+      "lat": 37.681129455566406,
+      "lng": -77.59059143066406,
       "accessibility": {
         "mobility": {
           "wheelchair_accessible_entrance": true,
           "accessible_parking": true,
           "accessible_restrooms": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "medium",
+          "lighting": "dim",
+          "quiet_spaces": false,
+          "busy_times": "Dinner hours and weekends"
+        },
+        "communication": {
+          "staff_assistance": true,
+          "written_signage": true,
+          "digital_resources": true,
+          "asl_available": "no",
+          "braille_available": "none"
+        }
       }
     },
 
     {
       "id": "loc-005",
-      "name": "Regal Short Pump & IMAX",
+      "name": "Regal Short Pump",
       "type": "movie_theater",
       "address": "11650 W Broad St, Richmond, VA 23233",
+      "website": "https://www.regmovies.com/theatres/regal-short-pump-0730",
       "hours": "varies by showtime",
+      "lat": 37.6533266,
+      "lng": -77.613901,
       "accessibility": {
         "mobility": {
           "wheelchair_accessible_entrance": true,
           "wheelchair_seating": true,
           "accessible_restrooms": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "high",
+          "lighting": "dim",
+          "quiet_spaces": false,
+          "busy_times": "Evenings and weekends"
+        },
+        "communication": {
+          "staff_assistance": true,
+          "written_signage": true,
+          "digital_resources": true,
+          "asl_available": "unknown",
+          "braille_available": "none",
+          "captioning_devices": true
+        }
       }
     },
 
@@ -113,6 +181,7 @@
       "name": "Short Pump Town Center",
       "type": "mall",
       "address": "11800 W Broad St, Richmond, VA 23233",
+      "website": "https://www.shortpumpmall.com/",
       "hours": [
         {"day": "Mon", "open": "11:00", "close": "20:00"},
         {"day": "Tue", "open": "11:00", "close": "20:00"},
@@ -122,6 +191,8 @@
         {"day": "Sat", "open": "10:00", "close": "20:00"},
         {"day": "Sun", "open": "11:00", "close": "18:00"}
       ],
+      "lat": 37.6561375,
+      "lng": -77.619876,
       "accessibility": {
         "mobility": {
           "wheelchair_accessible_entrance": true,
@@ -130,8 +201,19 @@
           "elevator": true,
           "wheelchair_paths": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "medium",
+          "lighting": "bright",
+          "quiet_spaces": false,
+          "busy_times": "Weekends and holidays"
+        },
+        "communication": {
+          "staff_assistance": true,
+          "written_signage": true,
+          "digital_resources": true,
+          "asl_available": "unknown",
+          "braille_available": "partial"
+        }
       }
     },
 
@@ -140,14 +222,28 @@
       "name": "Barnes & Noble Short Pump",
       "type": "bookstore",
       "address": "11640 W Broad St, Richmond, VA 23233",
+      "website": "https://stores.barnesandnoble.com/store/2977",
       "hours": "varies",
+      "lat": 37.6527293,
+      "lng": -77.6143046,
       "accessibility": {
         "mobility": {
           "wheelchair_accessible_entrance": true,
           "accessible_parking": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "low",
+          "lighting": "bright",
+          "quiet_spaces": true,
+          "busy_times": "Afternoons and weekends"
+        },
+        "communication": {
+          "staff_assistance": true,
+          "written_signage": true,
+          "digital_resources": true,
+          "asl_available": "unknown",
+          "braille_available": "partial"
+        }
       }
     },
 
@@ -156,6 +252,7 @@
       "name": "Shady Grove Family YMCA",
       "type": "fitness_center",
       "address": "11255 Nuckols Rd, Glen Allen, VA 23059",
+      "website": "https://ymcarichmond.org/locations/shady-grove-family-ymca/",
       "hours": [
         {"day": "Mon", "open": "05:00", "close": "21:00"},
         {"day": "Tue", "open": "05:00", "close": "21:00"},
@@ -165,14 +262,27 @@
         {"day": "Sat", "open": "06:00", "close": "18:00"},
         {"day": "Sun", "open": "08:00", "close": "18:00"}
       ],
+      "lat": 37.6790326,
+      "lng": -77.5894155,
       "accessibility": {
         "mobility": {
           "wheelchair_accessible_entrance": true,
           "accessible_parking": true,
           "accessible_restrooms": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "medium",
+          "lighting": "bright",
+          "quiet_spaces": false,
+          "busy_times": "Evenings and weekends"
+        },
+        "communication": {
+          "staff_assistance": true,
+          "written_signage": true,
+          "digital_resources": true,
+          "asl_available": "unknown",
+          "braille_available": "none"
+        }
       }
     },
 
@@ -181,6 +291,7 @@
       "name": "Starbucks",
       "type": "cafe",
       "address": "11332 Nuckols Rd, Glen Allen, VA 23059",
+      "website": "https://www.starbucks.com/",
       "hours": [
         {"day": "Mon", "open": "04:30", "close": "20:00"},
         {"day": "Tue", "open": "04:30", "close": "20:00"},
@@ -190,13 +301,26 @@
         {"day": "Sat", "open": "05:00", "close": "20:00"},
         {"day": "Sun", "open": "05:00", "close": "20:00"}
       ],
+      "lat": 37.6826331,
+      "lng": -77.5885675,
       "accessibility": {
         "mobility": {
           "wheelchair_accessible_entrance": true,
           "accessible_parking": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "medium",
+          "lighting": "bright",
+          "quiet_spaces": false,
+          "busy_times": "Morning rush and afternoons"
+        },
+        "communication": {
+          "staff_assistance": true,
+          "written_signage": true,
+          "digital_resources": true,
+          "asl_available": "no",
+          "braille_available": "none"
+        }
       }
     },
 
@@ -205,9 +329,10 @@
       "name": "Henrico Doctors' Hospital Short Pump",
       "type": "hospital",
       "address": "12401 W Broad St, Richmond, VA 23233",
-      "hours": {
-        "daily": "open 24 hours"
-      },
+      "website": "https://www.hcavirginia.com/locations/henrico-doctors-hospital",
+      "hours": {"daily": "open 24 hours"},
+      "lat": 37.661564,
+      "lng": -77.644322,
       "accessibility": {
         "mobility": {
           "wheelchair_accessible_entrance": true,
@@ -215,8 +340,233 @@
           "accessible_restrooms": true,
           "elevator": true
         },
-        "sensory": {},
-        "communication": {}
+        "sensory": {
+          "noise_level": "medium",
+          "lighting": "bright",
+          "quiet_spaces": true,
+          "busy_times": "Varies throughout the day"
+        },
+        "communication": {
+          "staff_assistance": true,
+          "written_signage": true,
+          "digital_resources": true,
+          "asl_available": "on_request",
+          "braille_available": "partial"
+        }
+      }
+    },
+    {
+      "id": "loc-011",
+      "name": "Short Pump Park",
+      "type": "park",
+      "address": "3329 Pump Rd, Richmond, VA 23233",
+      "website": "https://henrico.gov/rec/places/short-pump/",
+      "hours": {
+        "daily": "dawn-dusk"
+      },
+      "lat": 37.6466943,
+      "lng": -77.6136107,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_paths": true, 
+          "accessible_parking": true
+        },
+        "sensory": {
+          "noise_level": "medium", 
+          "lighting": "natural"
+        },
+        "communication": {
+          "written_signage": true
+        }
+      }
+    },
+    {
+      "id": "loc-012",
+      "name": "Tropical Smoothie Cafe",
+      "type": "cafe",
+      "address": "11761 W Broad St, Richmond, VA 23233",
+      "website": "https://www.tropicalsmoothiecafe.com",
+      "hours": "varies",
+      "lat": 37.652983,
+      "lng": -77.620471,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true
+        },
+        "sensory": {
+          "noise_level": "medium", "lighting": "bright"
+        },
+        "communication": {
+          "staff_assistance": true
+        }
+      }
+    },
+    {
+      "id": "loc-013",
+      "name": "Chick-fil-A Short Pump",
+      "type": "restaurant",
+      "address": "3380 Pump Rd, Richmond, VA 23233",
+      "website": "https://www.chick-fil-a.com",
+      "hours": "varies",
+      "lat": 37.6500855,
+      "lng": -77.6134534,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true
+        },
+        "sensory": {
+          "noise_level": "high"
+        },
+        "communication": {
+          "staff_assistance": true
+        }
+      }
+    },
+    {
+      "id": "loc-014",
+      "name": "Panera Bread Short Pump",
+      "type": "restaurant",
+      "address": "11703 W Broad St, Richmond, VA 23233",
+      "website": "https://www.panerabread.com",
+      "hours": "varies",
+      "lat": 37.6522576,
+      "lng": -77.6200825,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true
+        },
+        "sensory": {
+          "noise_level": "medium"
+        },
+        "communication": {
+          "staff_assistance": true
+        }
+      }
+    },
+    {
+      "id": "loc-015",
+      "name": "Target Short Pump",
+      "type": "store",
+      "address": "11290 W Broad St, Glen Allen, VA 23060",
+      "website": "https://www.target.com",
+      "hours": "varies",
+      "lat": 37.6496015,
+      "lng": -77.6038715,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true
+        },
+        "sensory": {
+          "noise_level": "medium"
+        },
+        "communication": {
+          "written_signage": true
+        }
+      }
+    },
+    {
+      "id": "loc-016",
+      "name": "Wegmans",
+      "type": "store",
+      "address": "12200 Wegmans Blvd, Henrico, VA 23233",
+      "website": "https://www.wegmans.com",
+      "hours": "varies",
+      "lat": 37.6632363,
+      "lng": -77.63524,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true
+        },
+        "sensory": {
+          "noise_level": "medium"
+        },
+        "communication": {
+          "staff_assistance": true
+        }
+      }
+    },
+    {
+      "id": "loc-017",
+      "name": "Cinebistro Short Pump",
+      "type": "movie_theater",
+      "address": "9200 Stony Point Pkwy, Richmond, VA 23235",
+      "website": "https://www.cobbtheatres.com",
+      "hours": "varies",
+      "lat": 37.5503587,
+      "lng": -77.5718286,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_seating": true
+        },
+        "sensory": {
+          "noise_level": "medium"
+        },
+        "communication": {
+          "captioning_devices": true
+        }
+      }
+    },
+    {
+      "id": "loc-018",
+      "name": "Gold's Gym Short Pump",
+      "type": "fitness_center",
+      "address": "8904 W Broad St, Richmond, VA 23294",
+      "website": "https://www.goldsgym.com",
+      "hours": "varies",
+      "lat": 37.635046,
+      "lng": -77.545922,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true
+        },
+        "sensory": {
+          "noise_level": "high"
+        },
+        "communication": {
+          "staff_assistance": true
+        }
+      }
+    },
+    {
+      "id": "loc-019",
+      "name": "Whole Foods Market Short Pump",
+      "type": "store",
+      "address": "11173 W Broad St, Glen Allen, VA 23060",
+      "website": "https://www.wholefoodsmarket.com",
+      "hours": "varies",
+      "lat": 37.6491544,
+      "lng": -77.5994399,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true
+        },
+        "sensory": {
+          "noise_level": "medium"
+        },
+        "communication": {
+          "written_signage": true
+        }
+      }
+    },
+    {
+      "id": "loc-020",
+      "name": "Short Pump DMV",
+      "type": "government",
+      "address": "4400 Virginia Center Pkwy, Glen Allen, VA 23060",
+      "website": "https://www.dmv.virginia.gov",
+      "hours": "varies",
+      "lat": 37.6671118,
+      "lng": -77.4669042,
+      "accessibility": {
+        "mobility": {
+          "wheelchair_accessible_entrance": true
+        },
+        "sensory": {
+          "noise_level": "medium"
+        },
+        "communication": {
+          "staff_assistance": true
+        }
       }
     }
   ]

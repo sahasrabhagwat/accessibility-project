@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Home</title>
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <a href="contactme.html">Contact Us</a>
-        <br>
-        <a href="aboutus.html">About Us</a>
-        <h1>Home</h1>
-    </body>
+<head>
+    <title>AccessPath</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="map.html">map</a>
+    <a href="add-place.html">Add Place</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="compare.html">Compare</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactme.html">Contact Us</a>
+</nav>
+
+<div class="container">
+
+    <h1>AccessPath</h1>
+
+    <div class="filters">
+
+        <input type="text" id="searchInput" placeholder="Search Locations...">
+
+        <label>Category</label>
+        <select id="categoryDropdown">
+            <option value="all">All</option>
+        </select>
+
+        <h3>Accessibility Filters</h3>
+        <div id="typeFilters"></div>
+
+        <h3>Minimum Accessibility Score</h3>
+
+        <input id="minScore" type="range" min="0" max="100" value="0">
+
+        <p>
+            Minimum Score:
+            <span id="scoreValue">0</span>
+        </p>
+
+    </div>
+
+    <p id="resultsCount"></p>
+
+    <ul id="locationList"></ul>
+
+</div>
+
+<script src="accessibility.js"></script>
+
+</body>
 </html>
