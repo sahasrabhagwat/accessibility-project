@@ -392,7 +392,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact & Support
 
-- **Project Author**: Sahas Rabhagwat
+- **Project Author**: Sahasra Bhagwat
 - **GitHub Repository**: [sahasrabhagwat/accessibility-project](https://github.com/sahasrabhagwat/accessibility-project)
 - **For Feedback**: Visit the "Contact Us" page in the application
 - **Issues & Bug Reports**: [GitHub Issues](https://github.com/sahasrabhagwat/accessibility-project/issues)
